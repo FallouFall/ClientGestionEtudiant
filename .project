@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>ClientGestionEtudiant</name>
+  <comment>ClientGestionEtudiant est une application Java Se  qui permet de gerer les inscriptions des etudiants,les professeurs,les secretaires et les ressources neccesaire au fonctionnement de l&apos;organisation (departements,filieres).
+Il fait appel a des methodes distantes grace a l&apos;API  RMI.Il utilise l&apos;outils de standarisation MAVEN et SONAR pour le controle du code source. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
