@@ -17,10 +17,6 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class AccueilClient {
 
 	/**
@@ -32,7 +28,7 @@ public class AccueilClient {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
-
+            System.out.println("mine");
 		System.setProperty("java.security.policy", "file:grant");
 		if (System.getSecurityManager() == null) {
 			System.setSecurityManager(new SecurityManager());
